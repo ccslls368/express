@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    /*display: inline-block;*/
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: aqua; */
+    padding: 0px;
+    margin: 0px;
+}
+
+#logo {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    padding: 15px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-search {
+    width: 400px;
+    border-color: black;
+    /*border-radius: 40px;*/
+    padding: 10px;
+}
+
+.header-buttons {
+    display: flex;
+}
+
+.header-button {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border: none;
+}
+
+.header-button img {
+    height: 30px;
+}
+
+.main {
+    /* top: 150px; */
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.items-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.item-wrapper {
+    text-decoration: none;
+    color: #000;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.item-img {
+    height: 200px;
+}
+
+.item-price {
+    font-weight: bold;
+}
+
+.footer-container {
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-to-cart-button {
+    color:#fff;
+    background-color: #000;
+}
+
+.search-button {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+}
+
+.auth .main{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-button {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+}
+
+.auth input {
+    padding: 10px;
+}
+
+.auth button {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+}
+
+.logout-button {
+    width: 200px;
+}
+
+.delete-item {
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+}
